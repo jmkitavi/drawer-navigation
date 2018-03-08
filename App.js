@@ -1,9 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { View } from 'react-native';
 import { DrawerNavigator } from 'react-navigation';
 
-import {routeConfigs, drawerNavigatorConfig} from './drawerNavigation';
+import { Drawer } from './app/components/navigator';
 
-
-const App = DrawerNavigator(routeConfigs, drawerNavigatorConfig);
-
-export default App;
+export default Drawer;
