@@ -3,7 +3,7 @@ import { Text, View, Image, ImageBackground } from 'react-native';
 import Header from '../common/Header/Header';
 import styles from './styles/styles';
 
-class Messi extends Component {
+class Neymar extends Component {
   render () {
     return (
         <View style={styles.container}>
@@ -13,7 +13,7 @@ class Messi extends Component {
             <View style={styles.imageView}>
               <Image
                 style={styles.image}
-                source={require('../../../images/messi.png')}/>
+                source={require('../../../images/neymar.png')}/>
             </View>
           </ImageBackground>
         </View>
@@ -21,4 +21,4 @@ class Messi extends Component {
   }
 }
 
-export default Messi;
+export default Neymar;

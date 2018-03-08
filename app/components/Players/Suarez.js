@@ -7,7 +7,6 @@ class Suarez extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <Header {...this.props}/>
         <ImageBackground
             source={require('../../../images/playerback.jpg')}
             style={{width: '100%', height: '100%'}}>
